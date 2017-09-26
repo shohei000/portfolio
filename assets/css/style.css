@@ -36,7 +36,7 @@ html {
 }
 
 body{
-  font-family: 'Carme', serif;
+  font-family: 'Quicksand', cursive;
   line-height: 1.6;
   color: #3f3f3f;
 }
@@ -87,7 +87,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .main{
   position: relative;
   height: 100vh;
-  background: url(../img/main_bg.jpg) no-repeat top center;
+  /*background: #fff;*/
+  border-top: 3px solid #FF99CB;
+  /*background-image: url(https://www.pakutaso.com/shared/img/thumb/TPIMG_0145_TP_V1.jpg);*/
   background-size: cover;
   background-attachment: fixed;
 }
@@ -103,6 +105,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 75px;
   line-height: 1.2;
   display: none;
+  color: #FF99CB;
 }
 .main-title span{
   font-size: 14px;
@@ -118,7 +121,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
 }
 .header a{
-  color: #fff;
+  color: #FF99CB;
+  font-weight: bold;
 }
 .logo{
   float: left;
@@ -160,8 +164,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   content: '';
   width: 50px;
   height: 50px;
-  border-top: solid 2px #fff;
-  border-right: solid 2px #fff;
+  border-top: solid 2px #FECCE7;
+  border-right: solid 2px #FECCE7;
   position: absolute;
   -webkit-transform: translateX(-50%) rotate(135deg);
   -ms-transform: translateX(-50%) rotate(135deg);
